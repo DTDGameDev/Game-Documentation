@@ -3,7 +3,7 @@ How to Setup Git
 
 This guide is to help everyone set up Git on their machine, please follow each step to a tee.
 If you have any questions please message either Holden or Magiber on Discord. 
-Make sure that this is the first How to guide you follow
+Make sure that this is the first How To Guide you follow
 
 
 ----------------------------------------------------------------------------------------------
@@ -19,3 +19,16 @@ Instructions:
 3. Make sure to have sent either Holden or Magiber your GitHub username so that we can add you to the organization,
 you can see your organization by clicking your profile on the top right.
 https://trello.com/1/cards/64fbd44e3493b92e59a95363/attachments/650d12f2be8556b1643ab3f1/download/image.png
+
+4. Go to the DTDGameDev repository:https://github.com/orgs/DTDGameDev/repositories
+
+Step 5:  Click on the assigned repository, and from there click on the green code button
+
+Step 6: Click on the “Open with GitHub Desktop”
+https://trello.com/1/cards/64fbd44e3493b92e59a95363/attachments/650d15111ba8b54fc510de65/download/image.png
+
+Step 7: Make sure you're on the main branch, and click on the “Fetch Origin” to make sure you are on the 
+latest version(on the Current repository it should say the repository you opened on the GitHub website)
+blob:https://dtd-gamedev.atlassian.net/745b6f63-d36c-4b02-9048-c2300e52eb4e#media-blob-url=true&id=e8027342-0106-4832-935c-78e7d7ae1508&contextId=99055&collection=contentId-99055
+
+
