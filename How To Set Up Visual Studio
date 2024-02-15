@@ -1,0 +1,17 @@
+How to Setup Visual Studio
+
+Instructions
+
+(Downloading Visual Studio on your device, it is recommended to create a customer folder to put all of your Unity downloads)
+
+1. Download Visual Studios 2022 using this link: https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false
+
+2. Open up the setup visual studio file you downloaded and let it run(make sure you have it downloaded in a file you can easily find
+
+3. 
+Make sure to have these two plugins check-marked so that you can download them at the same time(C# development, Game Development using Unity, and .Net)
+
+blob:https://dtd-gamedev.atlassian.net/ad96260f-d48b-4585-876e-9a48c052cbc2#media-blob-url=true&id=23033b1b-2de2-4875-8382-9d78c5af7390&collection=contentId-425988&contextId=425988&height=522&width=979&alt=image-20240210-234620.png
+
+blob:https://dtd-gamedev.atlassian.net/5a7d5efa-7d96-4f5e-885c-4ba07dea833f#media-blob-url=true&id=b6d10c09-d32a-45a6-93d3-507c305a48fc&collection=contentId-425988&contextId=425988&height=280&width=943&alt=image-20240210-234646.png
+
