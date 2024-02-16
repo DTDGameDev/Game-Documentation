@@ -7,13 +7,15 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            display: flex;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
         }
 
-        h1, h2 {
-            color: #333;
+        h1 {
+            font-size: 2em;
+            text-align: center;
         }
 
         p {
@@ -21,56 +23,69 @@
         }
 
         hr {
-            border: 0.5px solid #ccc;
+            margin-top: 20px;
         }
 
-        a {
-            color: #007BFF;
-            text-decoration: none;
-            font-weight: bold;
+        /* Left sidebar styling */
+        .sidebar {
+            width: 120px;
+            position: fixed;
+            height: 100%;
+            background-color: #f1f1f1;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
+
+            /* Style for the links in the sidebar */
+            .sidebar a {
+                display: block;
+                margin-bottom: 10px;
+                text-decoration: none;
+                color: #333;
+            }
     </style>
-    
 </head>
 <body>
 
-    <h1>Game Documentation</h1>
+    <div class="sidebar">
+        <h1>Links</h1>
+        <a href="/Game-Documentation/Help.html">IssueRequest</a>
+        <a href="/Game-Documentation/GitSetup.html">GitSetup</a>
+        <a href="/Game-Documentation/HelpDesk.html">Help Desk</a>
+        <a href="/Game-Documentation/UnitySetup.html">Unity Setup</a>
+        <a href="/Game-Documentation/VSSetup.html">Visual Studio Setup</a>
+        <a href="/Game-Documentation/Reasources.html">Resources</a>
+        <a href="/Game-Documentation/index.html">Main Read Me</a>
+    </div>
 
-    <p>This documentation is an overview of all the support each Game Development team should go through.</p>
+    <div>
+        <h1>Game Documentation</h1>
 
-    <h2>SETUP START:</h2>
+        <p>This documentation is an overview of all the support each Game Development team should go through.</p>
 
-    <p>If you are just getting started with Unity and Git, then please follow the How-to guides in this order:</p>
-    <ol>
-        <li>How to set up Git</li>
-        <li>How to set up Visual Studio</li>
-        <li>How to set up Unity</li>
-    </ol>
+        <h2>SETUP START:</h2>
 
-    <hr>
+        <p>If you are just getting started with Unity and Git, then please follow the How-to guides in this order:</p>
+        <ol>
+            <li>How to set up Git</li>
+            <li>How to set up Visual Studio</li>
+            <li>How to set up Unity</li>
+        </ol>
 
-    <h2>HELPDESK START:</h2>
+        <hr>
 
-    <p>We will also have a helpdesk document where you can document any problems you are facing. Once you document any issues you are facing, and any leads do not contact you to help you, please feel free to contact either Magiber or Holden for support. The reason we need it documented first: If anyone else is facing the same issue, we can document a solution to that problem, and others will be able to reference it if they need to.</p>
+        <h2>HELPDESK START:</h2>
 
-    <hr>
+        <p>We will also have a helpdesk document where you can document any problems you are facing. Once you document any issues you are facing, and any leads do not contact you to help you, please feel free to contact either Magiber or Holden for support. The reason we need it documented first: If anyone else is facing the same issue, we can document a solution to that problem, and others will be able to reference it if they need to.</p>
 
-    <h2>RESOURCES START:</h2>
+        <hr>
 
-    <p>We will also have a dedicated page of resources and links to helpful videos and sites for any specific needs. Some of these resources will include Programming in C#, Using Unity, and Using Github. These are just general examples, but there will be resources for more specific matters.</p>
+        <h2>RESOURCES START:</h2>
 
-    <p>If there are any resources that you found that you believe will be beneficial to add to the resources page, please contact either Magiber or Holden about it, and they will make sure it gets added.</p>
+        <p>We will also have a dedicated page of resources and links to helpful videos and sites for any specific needs. Some of these resources will include Programming in C#, Using Unity, and Using Github. These are just general examples, but there will be resources for more specific matters.</p>
 
-
-
-    <h1>Links</h1>
-    <a href="/Game-Documentation/Help.html">IssueRequest</a>
-    <a href="/Game-Documentation/GitSetup.html">GitSetupt</a>
-    <a href="/Game-Documentation/HelpDesk.html">Help Deskt</a>
-    <a href="/Game-Documentation/UnitySetup.html">Unity Setupt</a>
-    <a href="/Game-Documentation/VSSetup.html">Visual Studio Setupt</a>
-    <a href="/Game-Documentation/index.html">main read met</a>
+        <p>If there are any resources that you found that you believe will be beneficial to add to the resources page, please contact either Magiber or Holden about it, and they will make sure it gets added.</p>
+    </div>
 
 </body>
-
 </html>
