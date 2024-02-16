@@ -1,5 +1,43 @@
-# This document is dedicated for anyone to post any problems they are facing.
+# This document is dedicated for anyone to post any problems they are facing. 
 
 Please upload your problem in this format
+------------------------------------------------------------------------------------------------------------------------------------------------
+(your full name so we know who to contact about the problem), (Where the problem is, for example with Untiy or Github), (description of the problem, for example My branch on unity
 
-(Where the problem is, for example with Untiy or Github), (description), and (steps to reach the problem)
+doesn't want to update with the main branch), and (steps to reach the problem, for example I just finished my task which took me two weeks, and tried
+
+to push it onto the main branch but it keeps giving me errors, something about conflicting files?)
+
+
+Once your problem gets reviewed we will contact you on how to solve the issue, and then once we get it resolved on your end, we will post the solution onto this document
+
+Here is a full example:
+
+Issue #1: Magiber Aparicio: Github desktop, I am trying to merge my branch to the main branch but it keeps telling me I have conflicting files, 
+I just finished my task which took me two weeks to complete, and I don't know why I have conflicting files, i didn't change any files that were already on there
+I just added a few models and changed some settings. 
+
+Solution to Issue #1: It looks like by the time you finished your task, there had been notable changes to the main branch, so much so that the files
+you didn't change on your branch were already changed in the main branch, hence the conflicting files. 
+
+It is important to always update your branch by merging the main branch into the one you are working on whenever the main branch gets updates
+so that there won't be any conflicting files when you merge your branch back into the main one.
+
+We resolved this issue by discarding your conflicting files and keeping the files on the main branch while
+still merging the work you had on your branch onto the main branch. Please remember to always update your branch. 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Please list your issues below with the appropriate number:
+__________________________________________________________
+Issue#1: 
+
+Solution to Issue #1: 
+
+
+Issue #2: 
+
+Solution to Issue #2
+
+
+
