@@ -4,17 +4,16 @@
         <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Help Desk</title>
-    <style>
+<style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 800px;
+            display: flex; /* Added flex display to align items horizontally */
             margin: 0 auto;
             padding: 20px;
         }
 
-        h1 {
-            font-size: 2em;
-            text-align: center;
+        h1, h2 {
+            color: #333;
         }
 
         p {
@@ -22,10 +21,56 @@
         }
 
         hr {
-           
+            border: 0.5px solid #ccc;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Left sidebar styling */
+        .sidebar {
+            width: 120px;
+            position: fixed;
+            height: 100%;
+            background-color: #f1f1f1;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+            /* Style for the links in the sidebar */
+            .sidebar a {
+                display: block;
+                margin-bottom: 10px;
+                text-decoration: none;
+                color: #333;
+            }
+
+        /* Added styling for the main content area */
+        .content {
+            padding-left: 160px; /* Adjusted padding to the right of the sidebar */
+            flex-grow: 1; /* Allow the content area to grow and take up available space */
+        }
+    </style>
     </style>
 </head>
 <body>
+
+        <div class="sidebar">
+        <h1>Links</h1>
+        <a href="/Game-Documentation/Help.html">IssueRequest</a>
+        <a href="/Game-Documentation/GitSetup.html">GitSetup</a>
+        <a href="/Game-Documentation/HelpDesk.html">Help Desk</a>
+        <a href="/Game-Documentation/UnitySetup.html">Unity Setup</a>
+        <a href="/Game-Documentation/VSSetup.html">Visual Studio Setup</a>
+        <a href="/Game-Documentation/Reasources.html">Resources</a>
+        <a href="/Game-Documentation/index.html">Main Read Me</a>
+    </div>
+
+
+        <div class="content">
     <h1>This document is dedicated for anyone to post any problems they are facing.</h1>
 
     <p>Please upload your problem in this format:</p>
@@ -59,20 +104,6 @@
 
 
 
-
-    <h1>Links</h1>
-    <a href="/Game-Documentation/Help.html">IssueRequest</a>
-    <br>
-    <a href="/Game-Documentation/GitSetup.html">GitSetup</a>
-    <br>
-    <a href="/Game-Documentation/HelpDesk.html">Help Desk</a>
-    <br>
-    <a href="/Game-Documentation/UnitySetup.html">Unity Setup</a>
-    <br>
-    <a href="/Game-Documentation/VSSetup.html">Visual Studio Setup</a>
-    <br>
-    <a href="/Game-Documentation/Reasources.html">Reasources</a>
-    <br>
-    <a href="/Game-Documentation/index.html">main read me</a>
+    </div>
 </body>
 </html>
