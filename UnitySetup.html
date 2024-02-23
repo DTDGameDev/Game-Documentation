@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex; /* Added flex display to align items horizontally */
+            display: flex;
             margin: 0 auto;
             padding: 20px;
         }
@@ -30,7 +30,6 @@
             font-weight: bold;
         }
 
-        /* Left sidebar styling */
         .sidebar {
             width: 120px;
             position: fixed;
@@ -40,65 +39,65 @@
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
 
-            /* Style for the links in the sidebar */
-            .sidebar a {
-                display: block;
-                margin-bottom: 10px;
-                text-decoration: none;
-                color: #333;
-            }
+        .sidebar a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #333;
+        }
 
-        /* Added styling for the main content area */
         .content {
-            padding-left: 160px; /* Adjusted padding to the right of the sidebar */
-            flex-grow: 1; /* Allow the content area to grow and take up available space */
+            padding-left: 160px;
+            flex-grow: 1;
+        }
+
+        /* Added styling for the video player */
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            margin-top: 20px;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
     </style>
-    
 </head>
 <body>
 
-        <div class="sidebar">
-        <h1>Links</h1>
-        <a href="/Game-Documentation/Help.html">IssueRequest</a>
-        <a href="/Game-Documentation/GitSetup.html">GitSetup</a>
-        <a href="/Game-Documentation/HelpDesk.html">Help Desk</a>
-        <a href="/Game-Documentation/UnitySetup.html">Unity Setup</a>
-        <a href="/Game-Documentation/VSSetup.html">Visual Studio Setup</a>
-        <a href="/Game-Documentation/Resources.html">Resources</a>
-        <a href="/Game-Documentation/index.html">Main Read Me</a>
-    </div>
+<div class="sidebar">
+    <h1>Links</h1>
+    <a href="/Game-Documentation/Help.html">IssueRequest</a>
+    <a href="/Game-Documentation/GitSetup.html">GitSetup</a>
+    <a href="/Game-Documentation/HelpDesk.html">Help Desk</a>
+    <a href="/Game-Documentation/UnitySetup.html">Unity Setup</a>
+    <a href="/Game-Documentation/VSSetup.html">Visual Studio Setup</a>
+    <a href="/Game-Documentation/Resources.html">Resources</a>
+    <a href="/Game-Documentation/index.html">Main Read Me</a>
+</div>
 
-        <div class="content">
+<div class="content">
     <h1>How to Setup Unity</h1>
-
-    <p>This guide is to help everyone set up Unity on their machine. Please follow each step carefully. If you have any questions, please message either Holden or Magiber on Discord. Make sure to have followed the How-To guides for Visual Studio and Git.</p>
+    <!-- Your existing content -->
 
     <hr>
 
-    <h2>Instructions:</h2>
+    <h2>Video Tutorial:</h2>
 
-    <ol>
-        <li>Downloading Unity on your device, it is recommended to create a custom folder to put all of your Unity downloads.</li>
-        <ol type="a">
-            <li>Download Unity Hub using this link: <a href="https://unity.com/download" target="_blank">Unity Hub</a>. Once downloaded, open it and follow the steps to download it in a specific folder that you can remember.</li>
-            <li>After you have UnityHub downloaded, download this specific version of Unity: <a href="https://unity.com/releases/editor/whats-new/2023.2.2" target="_blank">Unity 2023.2.2</a>. (Do not download any other version!!! It has to be Unity 2023.2.2)</li>
-            <li>On the Unity Hub, install that version of Unity onto your Hub. It will prompt you for additional Plugins. Make sure to have these plugins check-marked when downloading.</li>
-        </ol>
-        <ol type="a">
-            <img src="https://trello.com/1/cards/64fbd44e3493b92e59a95363/attachments/65cf97ed11f47d2e644294fd/download/image.png" alt="Plugin Checkmark"> 
-            
-        </ol>
-        <li>After you download that version of Unity onto your Hub, create a default project, and on the top left click on File -&gt; Build Setting, make sure you have HTML Web downloaded.</li>
-        <img src="https://trello.com/1/cards/64fbd44e3493b92e59a95363/attachments/65cf97f9115e4c2a8ef8c242/download/image.png" alt="Plugin Checkmark">
-        <li>Once you open the project, go to preferences and make sure under external tools that Visual Studio 2022 is installed.</li>
-        <img src="https://trello.com/1/cards/64fbd44e3493b92e59a95363/attachments/65cf97fd206784b590af2d2c/download/image.png" alt="External Tools">
-    </ol>
+    <!-- Added video player with Google Drive link -->
+    <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/1DckO8gconNmL2Ogf8g8Vw_Q-w91YWRMc/preview" frameborder="0" allowfullscreen></iframe>
+    </div>
 
     <hr>
 
     <p><strong>PLEASE PROCEED BACK TO THE HOW TO SET UP GIT GUIDE</strong></p>
+</div>
 
-    </div>
 </body>
 </html>
