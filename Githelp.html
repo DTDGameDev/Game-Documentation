@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex; /* Added flex display to align items horizontally */
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        hr {
+            border: 0.5px solid #ccc;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Left sidebar styling */
+        .sidebar {
+            width: 120px;
+            position: fixed;
+            height: 100%;
+            background-color: #f1f1f1;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+            /* Style for the links in the sidebar */
+            .sidebar a {
+                display: block;
+                margin-bottom: 10px;
+                text-decoration: none;
+                color: #333;
+            }
+
+        /* Added styling for the main content area */
+        .content {
+            padding-left: 160px; /* Adjusted padding to the right of the sidebar */
+            flex-grow: 1; /* Allow the content area to grow and take up available space */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <h1>Links</h1>
+        <a href="/Game-Documentation/Help.html">IssueRequest</a>
+        <a href="/Game-Documentation/GitSetup.html">GitSetup</a>
+        <a href="/Game-Documentation/HelpDesk.html">Help Desk</a>
+        <a href="/Game-Documentation/UnitySetup.html">Unity Setup</a>
+        <a href="/Game-Documentation/VSSetup.html">Visual Studio Setup</a>
+        <a href="/Game-Documentation/Resources.html">Resources</a>
+        <a href="/Game-Documentation/index.html">Main Read Me</a>
+    </div>
+
+    <div class="content">
+        <h1>Merging Main Branch into Your Branch</h1>
+
+        <p>To merge the main branch into your own branch in a version control system like Git, follow these simplified steps:</p>
+
+        <ol>
+            <li><strong>Save Your Work:</strong> Ensure all changes you've made on your branch (let's call it <code>feature-branch</code>) are committed. Use the commit command to save your changes.</li>
+            <li><strong>Switch to Main Branch:</strong> Change your active branch to the <code>main</code> branch. You can do this by using the checkout command: <code>git checkout main</code>.</li>
+            <li><strong>Update Main Branch:</strong> Pull the latest changes from the remote repository to your local <code>main</code> branch to make sure it's up-to-date. Use the pull command: <code>git pull origin main</code>.</li>
+            <li><strong>Switch Back to Your Branch:</strong> Return to your <code>feature-branch</code> by using the checkout command again: <code>git checkout feature-branch</code>.</li>
+            <li><strong>Merge Main into Your Branch:</strong> Now, merge the updated <code>main</code> branch into your <code>feature-branch</code>. Use the merge command: <code>git merge main</code>. During this step, make sure that <code>main</code> is the branch being merged into your <code>feature-branch</code>, and confirm the action if prompted. This will create a merge commit in your <code>feature-branch</code> if there are no conflicts.</li>
+        </ol>
+    </div>
+
+</body>
+</html>
